@@ -1,0 +1,27 @@
+*{
+  background-color: rgb(190, 190, 190);
+  font-family: monospace;
+}
+.header{
+  margin: auto;
+  text-align: center;
+}
+.couch {
+  width: 500px;
+  margin: auto;
+  display: block;
+}
+.longimg {
+  max-width: 100%;
+  margin: auto;
+}
+.butnwrap {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: xx-large;
+}
+.instructions {
+  width: 1000px;
+  margin: auto;
+}
