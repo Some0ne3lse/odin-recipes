@@ -2,11 +2,11 @@
   background-color: rgb(190, 190, 190);
   font-family: monospace;
   box-sizing: border-box;
+
 }
-.header{
-  margin: auto;
+.header{  margin: auto;
   text-align: center;
-  width: 600px;
+  width: 500px;
 }
 .couch {
   width: 500px;
@@ -26,17 +26,19 @@
 }
 .flex {
   display: flex;
-  width: 1200px;
   margin: auto;
 }
 .others {
 margin-right: auto;
-margin-left: -150px;
 font-size: large;
+justify-content: flex-end;
+
 }
 .instructions {
   width: 750px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 button {
   background-color: rgb(183, 205, 224);
