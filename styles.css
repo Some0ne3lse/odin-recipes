@@ -2,7 +2,6 @@
   background-color: rgb(190, 190, 190);
   font-family: monospace;
   box-sizing: border-box;
-  /*border: 2px solid red;*/
 }
 .header{
   margin: auto;
@@ -27,15 +26,16 @@
 }
 .flex {
   display: flex;
+  width: 1200px;
+  margin: auto;
 }
 .others {
 margin-right: auto;
 margin-left: -150px;
-width: 300px;
 font-size: large;
 }
 .instructions {
-  width: 1000px;
+  width: 750px;
   margin: auto;
 }
 button {
