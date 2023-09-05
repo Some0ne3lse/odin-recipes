@@ -1,6 +1,8 @@
 *{
   background-color: rgb(190, 190, 190);
   font-family: monospace;
+  box-sizing: border-box;
+  /*border: 2px solid red;*/
 }
 .header{
   margin: auto;
@@ -15,6 +17,7 @@
 .longimg {
   max-width: 100%;
   margin: auto;
+  display: flex;
 }
 .butnwrap {
   margin-top: 20px;
@@ -22,7 +25,21 @@
   text-align: center;
   font-size: xx-large;
 }
+.flex {
+  display: flex;
+}
+.others {
+margin-right: auto;
+margin-left: -150px;
+width: 300px;
+font-size: large;
+}
 .instructions {
   width: 1000px;
   margin: auto;
+}
+button {
+  background-color: rgb(183, 205, 224);
+  width: 150px;
+  height: 40px;
 }
